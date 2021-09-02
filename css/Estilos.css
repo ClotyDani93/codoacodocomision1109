@@ -1,7 +1,58 @@
 /* Estructura de css selector {
     propiedad:valor }
     */
-    body { background-color: rgb(15, 87, 87);}
-
-    h1,h2 { text-align: center;}
+    body { 
+        background-color: rgba(240, 191, 151, 0.767);
     
+    }
+
+    h1,h2 { 
+        text-align: center;
+    }
+    header { 
+       background-image: url('../imagen/header1.jpg');
+       height: 300px; 
+       
+    }
+    header{
+        background-color: rgb(201, 219, 219);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    header h1 {
+        background-color: rgba(73, 124, 124, 0.521);
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+
+    }
+    nav{
+        background-color: rgba(189, 186, 13, 0.842);
+        position: fixed;
+        top: 0px;
+        left: 50px;
+    }
+    nav ol li {
+        display: inline;
+        color: rgb(236, 144, 22);
+        padding: 15px;
+        margin: 0px 7px;
+    }
+    article {
+        padding-top: 100px;
+        background: linear-gradient( red,yellow,red);
+
+
+    }
+    nav ol li a{
+        text-decoration: none;
+        color: black;
+
+    }
+    nav ol li:hover{
+        background-color: rgba(204, 44, 44, 0.904);
+        color: black;
+        box-shadow: 5px 3px 5px black;
+        width: 250px;
+    }
