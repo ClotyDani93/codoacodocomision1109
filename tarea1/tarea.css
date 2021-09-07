@@ -1,0 +1,19 @@
+.rojo {
+    background-color: red;    
+    width: 25%;
+    height: 200px;
+    color: yellow;s
+    font-size: 100%;
+    margin: 3px; 
+}
+#negro{
+    background-color: black;
+    width: 25%;
+    height: 200px;
+    color: white;
+    font-size: 100%     
+ }
+ #principal{
+    display: flex;
+    justify-content: center;
+ }
